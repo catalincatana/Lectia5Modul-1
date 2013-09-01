@@ -1,0 +1,104 @@
+#sameBase {
+	color: red;
+	text-decoration: underline;
+	font-weight: bold;
+}
+#punctA {
+	float: left;
+	display: inline-block;
+}
+#table1 {
+	margin-left: 8%;
+	float: left;
+	display: inline-block;
+}
+#tableCheckWrong {
+	margin-top: 3%;
+}
+#noBorder {
+	border: 0px solid white;
+}
+#n {
+	color: red;
+}
+#supN {
+	color: green;
+}
+td {
+	text-align: center;
+}
+.noBord {
+	border: 1px solid white;
+}
+.noTop {
+	border-top: 0px; 
+}
+img {
+	height: 15px;
+	width: 15px;
+}
+input {
+	color: red;
+}
+#4squares {
+	display: inline-block;
+	float: left;
+}
+#orange4 {
+	color: white;
+	border: 1px solid black;
+	border-bottom: 0px;
+	height: 10px;
+	width: 10px;
+}
+#red4 {
+	color: white;
+	border: 1px solid black;
+	height: 10px;
+	width: 10px;
+}
+#GT {
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: -40px;
+}
+#GT > tr > td {
+	border: 1px solid  black;
+}
+#swuare {
+	margin-left: 135px;
+	margin-top: -70px;
+}
+#blue16 {
+	color: white;
+	border: 1px solid black;
+	border-bottom: 0px;
+	height: 10px;
+	width: 10px;
+}
+#orange16 {
+	color: white;
+	border: 1px solid black;
+	border-bottom: 0px;
+	height: 10px;
+	width: 10px;
+}
+#red16 {
+	color: white;
+	border: 1px solid black;
+	height: 10px;
+	width: 10px;
+}
+#green16 {
+	color: white;
+	border: 1px solid black;
+	height: 10px;
+	width: 10px;
+}
+#green161 {
+	color: white;
+	border: 1px solid black;
+	border-bottom: 0px;
+	height: 10px;
+	width: 10px;
+}
