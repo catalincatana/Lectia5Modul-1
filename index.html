@@ -5,9 +5,22 @@
 <title>Lectia 5 - Modul 1</title>
 <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 <script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="jquery.autotab-1.1b.js"></script>
 <link type="text/css" href="style.css" rel='stylesheet'>
 </head>
 <body>
+<button id="Exercitiul1">
+		Exercitiul 1
+	</button>
+	<button id="Exercitiul2">
+		Exercitiul 2
+</button>
+<button id="Exercitiul3">
+		Exercitiul 3
+</button>
+	</br>
+	</br>
+<div id="Ex1">
 	<p id="sameBase"> 1<sup>o</sup>) Puteri cu aceeasi baza</p>
 	<div id="punctA">a) Completati tabelul alaturat:</div>
 	<table id="table1" border="1" cellspacing="0">
@@ -102,7 +115,8 @@
 											&nbsp;&nbsp;2<sup>4</sup>=2*2*2*2</div>  
 	</br></br>
 	c)Folosind implicatia:</br>
-	blablablabla		</br>
+	<span class="citat">
+	Dacă <span style="color:green">m < n</span> atunci <span style="color:red">a<span style="color:green"><sup>m</sup></span> < a</span><span style="color:green"><sup>n</sup> </span>	</span>	</br>
 	<div id="pctc">
 	2<sup>3</sup>
 	<input type="text" id="input1" class="inputs" value="" maxlength="1" size="1">
@@ -137,5 +151,173 @@
 			<span id="l1">&nbsp;<&nbsp;</span>,<span id="e1">&nbsp;=&nbsp;</span>,<span id="b1">&nbsp;>&nbsp;</span>
 			</span>
 		</div>
+</div>
+<div id="Ex2">
+<p id="sameBase"> 2<sup>o</sup>) Puteri cu acelaşi exponent</p>
+<div id="ex2pcta">
+	a)Completati tabelul alaturat:</div>
+	<table id="table2" border="1" cellspacing="0">
+		<tr id="line1">
+			<td id="noBorder"><span id="n">n</span></td>
+			<td class="noTop">0</td>
+			<td class="noTop">1</td>
+			<td class="noTop">2</td>
+			<td class="noTop">3</td>
+			<td class="noTop">4</td>
+			<td class="noTop">5</td>
+		</tr>
+		
+		<tr id="line2">
+			<td id="noBorder"><span id="n">2</span><sup id="supN">n</sup></td>
+			<td class="noBord"><input id="in02" type="text" maxlength="1" size="1"></td>
+			<td class="noBord"><input id="in12" type="text" maxlength="1" size="1"></td>
+			<td class="noBord"><input id="in22" type="text" maxlength="1" size="1"></td>
+			<td class="noBord"><input id="in32" type="text" maxlength="1" size="1"></td>
+			<td class="noBord"><input id="in42" type="text" maxlength="2" size="1"></td>
+			<td class="noBord"><input id="in52" type="text" maxlength="2" size="1"></td>
+		</tr>
+		<tr id="line3" style="border-top:1px solid black;">
+			<td id="noBorder"><span id="n">3</span><sup id="supN">n</sup></td>
+			<td class="noBord"><input id="in03" type="text" maxlength="1" size="1"></td>
+			<td class="noBord"><input id="in13" type="text" maxlength="1" size="1"></td>
+			<td class="noBord"><input id="in23" type="text" maxlength="1" size="1"></td>
+			<td class="noBord"><input id="in33" type="text" maxlength="2" size="1"></td>
+			<td class="noBord"><input id="in43" type="text" maxlength="2" size="1"></td>
+			<td class="noBord"><input id="in53" type="text" maxlength="3" size="1"></td>
+		</tr>
+	</table>
+	<table id="tableCheckWrong2" border="0">
+		<tr>
+			<td id="wrongChecked13"><img src="check.png"></td>
+			<td id="wrongChecked23"><img src="wrong.png"></td>
+		</tr>
+		<tr>
+			<td id="wrongChecked12"><img src="check.png"></td>
+			<td id="wrongChecked22"><img src="wrong.png"></td>
+		</tr>
+	</table>
+	</br>
+	</br>
+	</br></br></br>
+	<div id="ex2pctb">
+	b) ) Cu ajutorul tabelului şi a reprezentărilor comparaţi 2<sup>3</sup> cu 3<sup>3</sup></br>
+	&nbsp;&nbsp;&nbsp;8 cubuleţe &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	27 cubuleţe</br>
+	<div id="cubleft"><img id="cub2x2gol" src="cub2x2gol.png"><img id="cub2x2plin" src="cub2x2plin.png"></div>
+	<table id="ex2cuburi" border="0">
+		<tr>
+			<td>2<sup>2</sup></td>
+			<td><input id="inex2" type="text" maxlength="1" size="1"></td>
+			<td>2<sup>4</sup></td>
+		</tr>
+		<tr>
+			<td><input id="radio11" type="radio"></td>
+			<td id="empty1"></td>
+			<td><input id="radio22" type="radio"></td>
+		</tr>
+	</table>
+	<div id="cubright"><img id="cub3x3gol" src="cub3x3gol.png"><img id="cub3x3plin" src="cub3x3plin.png"></div>
+	</br></br></br></br></br></br></br>
+	<div id="subtabel11">2<sup>3</sup>=2*2*2</div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;
+	<div id="subtabel22">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;3<sup>3</sup>=3*3*3</div>
+	</div>
+	</br></br>
+	c)Folosind implicaţia</br><span class="citat"> 
+	"Dacă <span style="color:red">a < b</span> atunci <span style="color:red">a<span style="color:green"><sup>m</sup></span> < b</span><span style="color:green"><sup>m</sup> </span>"</span></br>Comparaţi:</br>
+	<div id="pctc">
+		3<sup>4</sup>
+		<input type="text" id="input1b" class="inputs" value="" maxlength="1" size="1">
+		5<sup>4</sup>
+		<img id="check1b" class="checks" src="check.png">
+		<img id="wrong1b" class="wrongs" src="wrong.png">
+		</br>
+		
+		102<sup>2</sup>
+		<input type="text" id="input2b" class="inputs" value="" maxlength="1" size="1">
+		101<sup>2</sup>
+		<img id="check2b" class="checks" src="check.png">
+		<img id="wrong2b" class="wrongs" src="wrong.png">
+		</br>
+		
+	</div>
+	
+	<div id="buttons"><span id="butons1" class="butoane">
+			<span id="l1b">&nbsp;<&nbsp;</span>,<span id="e1b">&nbsp;=&nbsp;</span>,<span id="b1b">&nbsp;>&nbsp;</span>
+			</span>
+		</div>
+</div>
+<div id="Ex3">
+<p id="sameBase"> 3<sup>o</sup>) Puteri cu baza şi exponenţi diferiţi.</p>
+	a) Cu ajutorul reprezentărilor comparaţi 2<sup>3</sup> cu 3<sup>2</sup> </br>
+	<div id="cubleft3"><img id="cubex3" src="cubex3.png">
+	<table id="ex3b" border="0">
+		<tr>
+			<td>2<sup>3</sup></td>
+			<td><input id="inex3b" type="text" maxlength="1" size="1"></td>
+			<td>3<sup>2</sup></td>
+		</tr>
+		<tr>
+			<td><input id="radio13" type="radio"></td>
+			<td id="empty2"></td>
+			<td><input id="radio23" type="radio"></td>
+		</tr>
+	</table>
+	<div id="cubright3"><img id="patratex3" src="patratex3.png">
+	</br></br></br></br></br></br>
+	<div id="subtabel13">2<sup>3</sup>=2*2*2</div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;
+	<div id="subtabel23">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;3<sup>2</sup>=3*3</div>
+	</br></br>
+	b)Folosind propoziţia: </br>
+	<span class="citat">
+	"Se aduc mai întâi puterile fie la aceeaşi bază fie la acelaşi exponent".</span></br>
+	Comparaţi:</br>
+	<div id="pctc">
+	2<sup>4</sup>
+	<input type="text" id="input13" class="inputs" value="" maxlength="1" size="1">
+	4<sup>2</sup>
+	<img id="check13" class="checks" src="check.png">
+	<img id="wrong13" class="wrongs" src="wrong.png">
+	</br>
+	
+	3<sup>6</sup>
+	<input type="text" id="input23" class="inputs" value="" maxlength="1" size="1">
+	6<sup>3</sup>
+	<img id="check23" class="checks" src="check.png">
+	<img id="wrong23" class="wrongs" src="wrong.png">
+	</br>
+	
+	2<sup>30</sup>
+	<input type="text" id="input33" class="inputs" value="" maxlength="1" size="1">
+	3<sup>20</sup>
+	<img id="check33" class="checks" src="check.png">
+	<img id="wrong33" class="wrongs" src="wrong.png">
+	</br>
+	
+	3<sup>18</sup>
+	<input type="text" id="input43" class="inputs" value="" maxlength="1" size="1">
+	9<sup>8</sup>
+	<img id="check43" class="checks" src="check.png">
+	<img id="wrong43" class="wrongs" src="wrong.png">
+	</br>
+	</div>
+	
+	<div id="buttons"><span id="butons1" class="butoane">
+			<span id="l13">&nbsp;<&nbsp;</span>,<span id="e13">&nbsp;=&nbsp;</span>,<span id="b13">&nbsp;>&nbsp;</span>
+			</span>
+		</div>
+</div>
 </body>
 </html>

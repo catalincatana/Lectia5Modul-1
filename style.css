@@ -7,13 +7,34 @@
 	float: left;
 	display: inline-block;
 }
-#table1 {
+#table1,#table2 {
 	margin-left: 8%;
 	float: left;
 	display: inline-block;
 }
+#ex2pcta{
+float:left;
+}
+
 #tableCheckWrong {
 	margin-top: 3%;
+}
+#tableCheckWrong2 {
+float:left;
+	margin-top:2%;
+}
+#cub2x2gol,#cub2x2plin{
+width:90px;
+height:90px;
+float:left;
+}
+#cub3x3gol,#cub3x3plin,#cubex3,#patratex3{
+width:120px;
+height:120px;
+float:left;
+}
+#ex2cuburi,#ex3b{
+float:left;
 }
 #noBorder {
 	border: 0px solid white;
@@ -103,7 +124,7 @@ input {
 	height: 10px;
 	width: 10px;
 }
-#subtabel1,#subtabel2,#pctc{
+#subtabel1,#subtabel2,#pctc,#subtabel11,#subtabel22,#subtabel13,#subtabel23{
 float:left;
 }
 .checks,.wrongs{
@@ -125,4 +146,7 @@ height:20px;
 padding: 1px;
 float:left;
 margin-left:20px;
+}
+.citat{
+background-color:yellow;
 }
